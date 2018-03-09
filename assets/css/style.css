@@ -1,0 +1,57 @@
+.blue-filter:after {
+  background: rgba(66,92,187, 0.64);
+  background: linear-gradient(45deg, rgba(36,51,102, 0.88) 0%, rgba(30,42,85, 0.95) 100%);
+  /* background: -moz-linear-gradient(135deg, rgba(66,92,187, 0.88) 0%, rgba(60,84,170, 0.45) 100%); */
+  /* background: -webkit-linear-gradient(135deg, rgba(66,92,187, 0.88) 0%, rgba(60,84,170, 0.45) 100%); */
+}
+
+/* 
+66,92,187
+60,84,170
+55,76,154
+49,67,137
+42,59,119
+36,51,102
+30,42,85
+*/
+
+.list-section {
+  color: #777;
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.img-map {
+  margin-top: 20px;
+}
+
+.section.schedule .list-section, .section.projects .list-section {
+  font-size: 1.2rem;
+}
+
+.section.schedule .list-section strong, .section.projects .list-section strong {
+  color: #425cbb;
+  font-size: 1.6rem;
+}
+
+
+.btn.btn-info {
+  background-color: #425cbb;
+  border-color: #425cbb;
+  box-shadow: 0 2px 2px 0 rgba(66,92,187, 0.14), 0 3px 1px -2px rgba(66,92,187, 0.2), 0 1px 5px 0 rgba(66,92,187, 0.12)
+}
+
+.btn.btn-info:hover {
+  color: #fff;
+  background-color: rgb(60,84,170);
+  border-color: rgb(55,76,154);
+}
+
+
+.btn.btn-info:hover {
+  box-shadow: 0 2px 2px 0 rgba(66,92,187, 0.14), 0 3px 1px -2px rgba(66,92,187, 0.2), 0 1px 5px 0 rgba(66,92,187, 0.12)
+}
+
+.blue {
+  color: #425cbb!important;
+}
